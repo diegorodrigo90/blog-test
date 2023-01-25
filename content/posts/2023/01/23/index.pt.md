@@ -1,6 +1,6 @@
 ---
 title: "Como criar um blog estático com Hugo"
-date: 2022-03-02T15:19:49-03:00
+date: 2023-01-23
 tags: ["blog", "hugo", "golang", "framework", "desempenho"]
 author: "Diego Rodrigo"
 draft: false
