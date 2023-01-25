@@ -44,3 +44,4 @@ params:
   author: "Diego Rodrigo"
   displayFullLangName: true
   responsiveImages: true
+  images: [""]
