@@ -44,4 +44,4 @@ params:
   author: "Diego Rodrigo"
   displayFullLangName: true
   responsiveImages: true
-  images: [""]
+  images: ["papermod-cover.png"]
