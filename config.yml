@@ -1,9 +1,9 @@
 baseURL: http://example.org/
-languageCode: en-us
+languageCode: en
 
 theme: PaperMod
 
-DefaultContentLanguage: en-us
+DefaultContentLanguage: en
 author: Diego Rodrigo
 
 permalinks:
@@ -22,8 +22,7 @@ languages:
       main:
         - name: Sobre
           url: "/pt/sobre"
-
-  en-us:
+  en:
     languageName: English
     title: "My blog"
     description: "A blog about technology"
