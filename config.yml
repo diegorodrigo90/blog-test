@@ -1,0 +1,47 @@
+baseURL: http://example.org/
+languageCode: en-us
+
+theme: PaperMod
+
+DefaultContentLanguage: en-us
+author: Diego Rodrigo
+
+permalinks:
+  posts: /:year/:month/:day/:slug/
+
+languages:
+  pt:
+    languageName: Português
+    title: "Meu blog"
+    description: "Um blog sobre tecnologia"
+    homeInfoParams:
+        title: "Bem-vindo ao meu blog"
+        subtitle: "Um blog sobre tecnologia"
+        content: "Este é um blog sobre tecnologia. Eu escrevo sobre programação, Linux e outras coisas."
+    menu:
+      main:
+        - name: Sobre
+          url: "/pt/sobre"
+
+  en-us:
+    languageName: English
+    title: "My blog"
+    description: "A blog about technology"
+    homeInfoParams:
+      title: "Welcome to my blog"
+      subtitle: "A blog about technology"
+      content: "This is a blog about technology. I write about programming, Linux, and other things."
+    menu:
+      main:
+        - name: About
+          url: "/about"
+
+params:
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  author: "Diego Rodrigo"
+  displayFullLangName: true
+  responsiveImages: true
